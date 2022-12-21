@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.img-container {
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(Aurora.jpg);
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.inner-container {
+    background-image: url(Pinky.jpg);
+    height: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 800px;
+    position: top;
+}
+
+.pre-header {
+    height: 40px;
+    color: rgb(26, 123, 226);
+    padding-top: 60px;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 0px;
+    padding-left: 140px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    min-height: 400px;
+    margin-right: 40px;
+    font-size: 16px;
+}
+
+.ul li {
+    display: inline-block;
+}
+
+.ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px;
+    transition: 0.5 ease;
+}
+
+.ul li a:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+.ul li.active a {
+    background-color: aliceblue;
+    color: black;
+}
+
+
+.pre-header .TopText {
+    margin-left: 40px;
+}
+
+.pre-header .TopText1 {
+    margin-left: 35px;
+}
+
+.pre-header .sidebar {
+    margin-bottom: 40px;
+    list-style: none;
+    margin-left: 400px;
+    margin-right: 160px;
+    align-items: center;
+}
+
+.pre-header .sidebar li {
+    display: inline-block;
+    margin-left: 10px;
+}    
+
+.pre-header .sidebar li a {
+    color: rgb(26, 123, 226);
+    text-transform: uppercase;
+    text-decoration: underline solid rgb(39, 29, 29) 2px;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+.pre-header .sidebar li a:hover{
+    color: rgba(147, 174, 147, 0.811);
+}
+
+.sub-menu1 {
+    display: none;
+    top: 6%;
+    position: relative;
+}
+
+.sub-menu1 ul {
+    position: absolute;
+}
+
+.pre-header .sidebar ul li:hover .sub-menu1 {
+    display: block;
+    position: absolute;
+    background-color: none;
+    margin-top: 25px;
+    margin-left: -8px;
+}
+
+.pre-header .sidebar ul li:hover .sub-menu1 ul {
+    display: block;
+    margin: 0px;
+    font-size: 15px;
+}
+
+.sub-menu {
+    display: none;
+    top: 6%;
+    position: relative;
+}
+
+.sub-menu ul {
+    position: absolute;
+}
+
+.pre-header .sidebar ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    background-color: none;
+    margin-top: 25px;
+    margin-left: -8px;
+}
+
+.pre-header .sidebar ul li:hover .sub-menu ul {
+    display: block;
+    margin: 0px;
+    font-size: 15px;
+}
+
+.sub-menu2 {
+    display: none;
+    top: 6%;
+    position: relative;
+}
+
+.sub-menu2 ul {
+    position: absolute;
+}
+
+.pre-header .sidebar ul li:hover .sub-menu2 {
+    display: block;
+    position: absolute;
+    background-color: none;
+    margin-top: 25px;
+    margin-left: -8px;
+}
+
+.pre-header .sidebar ul li:hover .sub-menu2 ul {
+    display: block;
+    margin: 0px;
+    font-size: 15px;
+}
+
+.sub-menu3 {
+    display: none;
+    top: 6%;
+    position: relative;
+}
+
+.sub-menu3 ul {
+    position: absolute;
+}
+
+.pre-header .sidebar ul li:hover .sub-menu3 {
+    display: block;
+    position: absolute;
+    background-color: none;
+    margin-top: 25px;
+    margin-left: -8px;
+}
+
+.pre-header .sidebar ul li:hover .sub-menu3 ul {
+    display: block;
+    margin: 0px;
+    font-size: 15px;
+}
+
+.sub-menu4 {
+    display: none;
+    top: 6%;
+    position: relative;
+}
+
+.sub-menu4 ul {
+    position: absolute;
+}
+
+.pre-header .sidebar ul li:hover .sub-menu4 {
+    display: block;
+    position: absolute;
+    background-color: none;
+    margin-top: 10px;
+    margin-left: -5px;
+    
+}
+
+.pre-header .sidebar ul li:hover .sub-menu4 ul {
+    display: block;
+    margin: 0px;
+    font-size: 12px;
+}
+
+.pre-header .sidebar ul li:hover .sub-menu4 ul li {
+    padding: 5px;
+    padding-top: 20px;
+    border-bottom: 1px;
+    background: transparent;
+    transition: 0.4 ease;
+    text-align: left;
+    border-radius: 0%;
+}
+
+.sub-menu5 {
+    display: none;
+    top: 6%;
+    position: relative;
+}
+
+.sub-menu5 ul {
+    position: absolute;
+}
+
+.pre-header .sidebar ul li:hover .sub-menu5 {
+    display: block;
+    position: relative; 
+    background-color: none;
+    margin-top: 10px;
+    margin-left: -10px;
+}
+
+.pre-header .sidebar ul li:hover .sub-menu5 ul {
+    display: block;
+    margin: -100px;
+    margin-left: 0px;
+    font-size: 12px;
+}
+
+
+.footer-content p {
+    padding-top: 530px;
+    line-height: 28px;
+    font-size: 20px;
+    position: relative;
+    margin-left: 90px;
+}
