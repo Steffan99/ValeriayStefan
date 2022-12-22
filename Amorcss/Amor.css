@@ -1,9 +1,13 @@
- @media screen and (max-width: 481px){
 *{
     margin: 0;
     padding: 0;
     height: 100%;
 }
+@-ms-viewport{
+    width: extend-to-zoom;
+    zoom: 1.0;
+}
+@media screen and (max-width: 481px){
 
 body {
     width: 100%;
