@@ -1,0 +1,9 @@
+/*design for smartphones*/
+@media only screen and (max-width: 450px){
+body{
+  background-image: url(Aurora.jpg)
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+}
