@@ -1,4 +1,5 @@
-* {
+ @media screen and (max-width: 481px){
+*{
     margin: 0;
     padding: 0;
     height: 100%;
@@ -268,4 +269,5 @@ body {
     font-size: 20px;
     position: relative;
     margin-left: 90px;
+}
 }
