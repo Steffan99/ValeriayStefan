@@ -1,0 +1,6 @@
+/*design for smartphones*/
+@media(max-width: 450px){
+body{
+background-color: blue;
+}
+}
